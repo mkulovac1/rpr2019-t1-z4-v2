@@ -34,4 +34,9 @@ public class Artikl {
     public void setKod(String kod) {
         this.kod = kod;
     }
+
+    void IspisiArtikl() {
+        System.out.println(naziv + " " + cijena + " " + kod);
+    }
+
 }

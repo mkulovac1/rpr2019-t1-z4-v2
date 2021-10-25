@@ -30,4 +30,10 @@ public class Supermarket {
         }
         return izbaceniArtikal;
     }
+
+
+    public int brojArtikala() {
+        return brojac;
+    }
+
 }
